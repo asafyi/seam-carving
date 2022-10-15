@@ -1,5 +1,5 @@
 # Seam Carving
-Seam Carving implementation in python (Seam Removal and Seam Insertion) for performing content aware resinig of images.
+Seam Carving implementation in python (Seam Removal and Seam Insertion) for performing content-aware image resizing.
 The project is based on the paper "Seam Carving for Content-Aware Image Resizing" by Shai Avidan and Ariel Shamir.  
 Link to the paper: https://faculty.runi.ac.il/arik/scweb/imret/imret.pdf  
 
