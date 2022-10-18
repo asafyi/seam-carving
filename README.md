@@ -2,7 +2,7 @@
 Seam Carving implementation in python (Seam Removal and Seam Insertion) for performing content-aware image resizing.
 The project is based on the paper ["Seam Carving for Content-Aware Image Resizing"](Seam_Carving_for_Content-Aware_Image_Resizing.pdf) by Shai Avidan and Ariel Shamir.   
 
-The algorithm is using edge detection to detect objects in the image and choose the path for removal or insertion. Edge detection is implemented using Sobel Operator as described in the paper ["A Descriptive Algorithm for Sobel Image Edge Detection"](A_Descriptive_Algorithm_for_Sobel_Image_Edge_Detection.pdf).
+The algorithm is using edge detection to detect objects in the image and choose the path for removal or insertion. Edge detection is implemented using Sobel Operator as described in the paper ["A Descriptive Algorithm for Sobel Image Edge Detection"](A_Descriptive_Algorithm_for_Sobel_Image_Edge_Detection%20.pdf).
 For example:
 <p align="center"><img src="./images/photo-1628707351135-e963f2aa4387.jpg" width="300">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="./images/trees_sobel.jpg" width="300"></p>
 Then, using this image and Dynamic Programming, the algorithm will find the path with the least "energy" and remove it from both images:    
