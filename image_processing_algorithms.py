@@ -7,11 +7,11 @@ from PIL import ImageTk, Image
 
 def edge_detectction(img):
     """"
-    "Energy functin" - using the Sobel operator, the function preforming an edge detection on the given image
+    "Energy functin" - using the Sobel operator, the function performing an edge detection on the given image
     """
-    kernal_x = np.array([[-0.25, 0, 0.25],
-                         [-0.5, 0, 0.5],
-                         [-0.25, 0, 0.25]])
+    kernal_x = np.array([[1, 0, -1],
+                         [2, 0, -2],
+                         [1, 0, -1]])
     kernal_y = np.transpose(kernal_x)
     img_gray = 0.2989 * img[:,:,0] + 0.5870 * img[:,:,1] + 0.1140 * img[:,:,2]
     edged_x = ndimage.convolve(img_gray,kernal_x)

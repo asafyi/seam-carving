@@ -62,7 +62,7 @@ def compute(window, output_label, filepath, width_entery, height_entery, str_com
     str_computing.set("Computing...")
     img = np.asarray(Image.open(filepath[0]),dtype=np.int32)
     img_edged = edge_detectction(img)
-
+    
     try:
         new_width = int(width_entery.get())
     except:
@@ -158,11 +158,11 @@ def open_file(window, img_label,str_size, filepath):
     if filepath[0] == "":
         window.title(f"Seam Carving")
         img_label.pack_forget()
-        str_size.set("Orginal size:\nHeight:\nWidth:")
+        str_size.set("Original size:\nHeight:\nWidth:")
     else:
         window.title(f"Seam Carving - {filepath[0]}")
         image = Image.open(filepath[0])
-        str_size.set(f"Orginal size:\nHeight: {image.size[1]}\nWidth: {image.size[0]}")
+        str_size.set(f"Original size:\nHeight: {image.size[1]}\nWidth: {image.size[0]}")
         update_img(window,image,img_label)
     window.mainloop()
 
