@@ -7,7 +7,7 @@ For example:
 <p align="center"><img src="./images/photo-1628707351135-e963f2aa4387.jpg" width="300">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="./images/trees_sobel.jpg" width="300"></p>
 Then, using this image and Dynamic Programming, the algorithm will find the path with the least "energy" and remove it from both images:    
 <p align="center"><img src="./images/seam-highland-view-bed-and.jpg"></p>
-This stage is repeated until the image is the requested size. </br>
+This stage is repeated until the image is in the requested size. </br>
 The final result:   
 <img src="./images/Animation.gif">
 In the example above, the program gets an image in size 1601 x 664 and performs removal of vertical seams and insertion of horizontal seams 
