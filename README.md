@@ -22,7 +22,7 @@ After the calculations, we get a new image in size 1200 X 900 without losing and
 * PIL
 
 ## Usage
-```
+```bash
 python seam_carving.py
 ```
 When the GUI opens, you will be able to select an image from your computer, the image will be displayed on the left side, along with its original size (in pixels). Afterward, you can choose a new width or height (if the text box is empty, the size in this dimension won't change) and start the algorithm. After computing, the new image will appear on the right side and you will be able to save it.
